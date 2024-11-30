@@ -1,4 +1,6 @@
-package com.jet.ecommerce.repository;
+package com.jet.ecommerce.repositories;
 
-public interface CategoryRepository {
-}
+import com.jet.ecommerce.entities.Category;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CategoryRepository extends JpaRepository<Category, Long> {}

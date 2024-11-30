@@ -1,1 +1,12 @@
-<p>home works!</p>
+<div class="container">
+  <h1>Products em Destaque</h1>
+  <div class="grid">
+    <div *ngFor="let product of products" class="card">
+      <p-card header="{{ product.name }}" [style]="{ width: '25em' }">
+        <img src="{{ product.imageUrl }}" alt="{{ product.name }}" style="width: 100%;" />
+        <p>{{ product.description }}</p>
+        <h3>R$ {{ product.price }}</h3>
+      </p-card>
+    </div>
+  </div>
+</div>

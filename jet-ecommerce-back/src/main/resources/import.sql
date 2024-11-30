@@ -1,0 +1,2 @@
+INSERT INTO product (name, description, price, image_url) VALUES ('Product Name', 'This is a sample product description.', 99.99, 'http://example.com/image.jpg');
+INSERT INTO product (name, description, price, image_url) VALUES ('Product test', 'This is a other product description.', 79.79, 'http://example.com/image.jpg');
